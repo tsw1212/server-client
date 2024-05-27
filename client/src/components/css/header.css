@@ -1,0 +1,36 @@
+*{
+    padding: 0rem;
+    font-family: cursive,Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+}
+
+
+
+nav {
+    margin-top: 0vh;
+    justify-content: space-around;
+    top:0%;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    background-color:#79D3E7;
+    padding: 13px;
+    z-index: 1;
+ 
+}
+.navLink{
+    color:#FBB040;
+    font-weight: bold;
+    border-color: black;
+    font-size: 20px;
+ /* border: black solid 1px; */
+}
+
+.navLink:hover{
+   color: white;
+   box-shadow: white;
+}
+
+
+

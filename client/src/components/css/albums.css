@@ -1,0 +1,37 @@
+#lineButtons{
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    padding: 4px;
+
+}
+
+
+#linkAlbum{
+    color: black;
+}
+
+#album{
+    border: 2px solid #79D3E7;
+    color: black;
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    margin: 2px;
+    padding: 3px;
+    font-size: 5px sans-serif;
+    flex-direction: column;
+    justify-content: "space-between";
+    align-items: center;
+    /* box-shadow: 0 0.1rem 1.5rem rgb(169, 230, 243); */
+
+}
+
+#idAlbun{
+    color: #FBB040;
+}
+#allAlbums{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 10px;
+}

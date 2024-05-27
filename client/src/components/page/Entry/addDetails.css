@@ -1,0 +1,32 @@
+#form {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #c5ecf7;
+  border-radius: 8px;
+  height: 180vh;
+}
+
+#form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.addDetails {
+  display: flex;
+
+}
+
+#form button {
+  background-color: rgb(67, 148, 162);
+
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#form button:hover {
+  background-color: #295f63;
+}
